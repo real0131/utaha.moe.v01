@@ -1,0 +1,220 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 4000px;
+}
+ul{list-style: none;}
+
+#index{
+    margin: auto;
+    display: inline-block;
+    z-index: 9999;
+    width: 100%;
+    height: 1080px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+#btn_hide
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+#utaha_main_pic
+{
+    width: auto;
+    height: 600px;
+    position:fixed;
+    top: 40%;
+    left: 70%;
+}
+#index_time_int
+{
+    
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    position: fixed;
+    top: 17%;
+    left: 20%;
+    
+}
+#index_time_char
+{
+    display: inline;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    position: fixed;
+    top: 25%;
+    left: 21%;
+}
+
+#time_day
+{
+    padding-right: 3%;
+   float: left;
+   
+}
+#time_hour
+{
+   float: left;
+   padding-right: 3%;
+}
+#time_min
+{
+    float: left;  
+    padding-right: 3%;
+
+}
+#time_sec
+{
+    float: left;
+       padding-right: 3%;
+}
+#day
+{
+    float: left;
+       padding-right: 6%;
+
+}
+#hour
+{
+    float: left;
+    padding-right: 6%;
+
+}
+#min
+{
+    float: left;
+       padding-right: 6%;
+
+}
+#sec
+{
+    float: left;
+       padding-right: 6%;
+
+
+}
+#header
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 64px;
+    background-color: #e91e63;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    z-index: 2;
+}
+
+#header_title
+{
+    width: 140px;
+    position: relative;
+    top: -12%;
+    left: 15%;
+    font-size: 1.5em;
+    color: white;
+    transition: 0.3s;
+    z-index: 100;
+}
+#menu_list
+{
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 100%;
+    background-color: #e91e63;
+    position: absolute;
+    top:64px;
+    left: 0%;
+    color: white;
+    text-align: center;
+    z-index: 1;
+   
+}
+
+td:hover
+{
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.3s;
+    color: #a3a4a5;
+    
+    cursor: pointer;
+}
+#header_title:hover
+{
+   color: red;   
+}
+#header_timer
+{
+    position: relative;
+    top: -100%;
+    left: 75%;
+    height: 28px;
+    width: 144px;
+    border:2px solid white;
+    border-radius: 15px;
+    z-index: 9999;
+    transition: 0.3s;
+}
+#header_timer:hover
+{
+    animation-duration: 1.0f;
+    background-color: white;
+    color: #e91e63;
+}
+
+#content_margin
+{
+    width: 100%;
+    height: 128px;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+
+#content
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    height: auto;
+    width: 60%;
+  
+}
+
+#content_img
+{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height:75%; 
+       
+}
+#content_article
+{
+    padding: 5%; 
+    text-align: center;
+}
+#footer
+{
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 100%;
+}
+

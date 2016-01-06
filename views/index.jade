@@ -1,0 +1,30 @@
+extends layout
+
+block index
+    span#index
+        #index_time_int
+        img#btn_hide(src='/images/hide_button.png', alt='btn_hide', onclick='btn_hide_onclick()')
+        img#utaha_main_pic(src='/images/utaha_main.png', alt='utaha.main')
+        script(type='text/javascript', src='/javascripts/header.js')
+        script(type='text/javascript', src='/javascripts/timer.js')
+block content
+
+    script(type='text/javascript', src='/javascripts/header.js')
+      script(type='text/javascript', src='/javascripts/timer.js')
+      #content_margin
+      #content
+        // img id="content_img"
+        img#content_img(src='/images/utaha.png', alt='utaha', align='middle')
+        // article id="content_article"
+        p#content_article welcome to utaha.moe!
+      #content
+        // img id="content_img"
+        img#content_img(src='/images/kato_main.png', alt='utaha', align='middle')
+        // article id="content_article"
+        p#content_article
+          | utaha.moe
+      // footer
+      ul#footer
+        li @copyright by chojeaho 2015
+        li email : real0131@gmail.com
+        li 2015 utaha project

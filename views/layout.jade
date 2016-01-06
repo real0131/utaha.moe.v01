@@ -1,0 +1,21 @@
+
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    link(href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,900', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/main.css')
+  body
+    block index
+    // header
+    span#header
+      p#header_title UTAHA.MOE
+      #header_timertd
+      table#menu_list
+        td
+          a(herf="http://google.com") Projects
+        td
+          a(herf="localhost:3000/about") About me
+        td
+          a(herf="localhost:3000/donate") Donate
+    block content
